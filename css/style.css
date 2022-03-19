@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Gothic&family=Mulish:wght@200;400&family=Playfair+Display&family=Poppins:ital@0;1&family=Shizuru&family=Smooch+Sans&display=swap');
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Gothic&family=Mulish:wght@200;400&family=Playfair+Display&family=Poppins:ital@0;1&family=Shizuru&family=Smooch+Sans&display=swap');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.our-service{
+    width: 1150px;
+    margin: auto;
+
+}
+.our-text{
+  text-align: center;
+}
+.service-paragraph{
+    margin-top: 30px;
+    color: #7D7987;
+    text-align: center;
+}
+.grid-paragraph{
+    color: #7D7987;
+margin-top: 10px;
+line-height: 28px;
+}
+.service-img img{
+    width: 90px 90px;
+}
+.service-grid{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 34px;
+    row-gap:37px ;
+}
+.service-texted{
+    margin-top: 10px;
+}
+.service-box{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 50px 30px;
+   
+}
+.btn{
+    padding: 20px 20px;
+    border-radius: 30px;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    margin-bottom: 50px;
+}
+.learn-btn{
+    text-align: center;
+    margin-top: 15px;
+    background: none;
+}
+.customer-paragraph{
+    color: #7D7987;
+}
+.customer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.customer-box{
+    text-align: center;
+
+}
+.customer-logo{
+    display: flex;
+    align-items: center;
+}
+.customer-name{
+    margin-left: 29px;
+    
+}
+.customer-box{
+    background: linear-gradient(208.18deg, #67C3F3 8.89%, #5A98F2 76.58%);
+    border-radius: 24px;
+    padding: 90px 50px;
+    color: white;
+}
+.customer-title{
+  
+    color: #7D7987;
+}
+.arrow{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-grid{
+   display: grid;
+grid-template-columns:396px  auto auto auto;
+width: 1152px;
+margin: auto;
+margin-top: 50px;
+;;
+}
+.footer-margin{
+    margin-top: 30px;
+}
+footer{
+    background: linear-gradient(183.41deg,
+ #67C3F3 -8.57%, #5A98F2 82.96%);
+ padding: 20px;
+ color: white;
+ margin-bottom: 30px;
+}
+.footer-texted{
+   margin-top: 20px;
+   color: #7D7987;
+}
+.footer-text p{
+    margin-top: 10px;
+  
+}
+
+   .footer-paragraph{
+       line-height: 25px;
+       color: #7D7987;
+       
+   }
+.line-height p{
+    line-height:30px;
+    color: #7D7987;
+}
